@@ -8,8 +8,12 @@ export default {
 
 <template>
     <header>
-        <h1></h1>
+        <h1>Hello World!</h1>
     </header>
 </template>
 
-<style scoped></style>
+<style scoped>
+h1 {
+  color: magenta;
+}
+</style>

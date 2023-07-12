@@ -12,6 +12,8 @@ export default {
 </script>
 
 <template>
+  <!-- Utilizzo dei componenti -->
+  <AppTitle/>
   <div>
    {{ count }}
   </div>
