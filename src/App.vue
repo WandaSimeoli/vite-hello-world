@@ -1,19 +1,23 @@
 <script>
-// Imposrto i componenti 
+// Importo i componenti 
 import AppTitle from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue'
+
 // my-component.js
 export default {
   data() {
-    return { count: 10 }
+    return {  }
   },
   // Dichiaro i componenti 
-  components : {AppTitle}
+  components : {AppTitle,
+          AppHero}
 }
 </script>
 
 <template>
   <!-- Utilizzo dei componenti -->
   <AppTitle/>
+  <AppHero/>
   <div>
    {{ count }}
   </div>
